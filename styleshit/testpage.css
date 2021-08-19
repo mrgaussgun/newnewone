@@ -1,17 +1,34 @@
-#hat {
-    width: 1000px;
-    height: 1000px;
-    /*background-color: red;*/
-    /*background: url('../images/ez.jpg');*/
-    background-image: url('../images/ez.jpg');
+header
+{
+    background: grey;
 }
-#body {
-    width: 1000px;
-    height: 1000px;
-    /*background-color: blue;*/
+footer
+{
+    background: grey;
 }
-#underground {
-    width: 1000px;
-    height: 1000px;
-    /*background-color: green;*/
+.container 
+{
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background:rgb(226, 199, 199);
+}
+.logo
+{
+    float: left;
+}
+.nav
+{
+    float: right;
+}
+.nav ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav li
+{
+    display: inline-block;
 }
