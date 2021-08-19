@@ -1,13 +1,17 @@
 #hat {
     width: 1000px;
     height: 1000px;
-    background-image: url(images/filpg.jpg);
+    /*background-color: red;*/
+    /*background: url('../images/ez.jpg');*/
+    background-image: url('../images/ez.jpg');
 }
 #body {
     width: 1000px;
     height: 1000px;
+    /*background-color: blue;*/
 }
 #underground {
     width: 1000px;
     height: 1000px;
+    /*background-color: green;*/
 }
