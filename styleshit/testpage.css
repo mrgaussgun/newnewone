@@ -1,34 +1,41 @@
 header
 {
-    background: grey;
+    background: rgb(247, 122, 122);
 }
+
 footer
 {
-    background: grey;
+    background: rgb(105, 3, 3);
 }
+
 .container 
 {
     width: 100%;
     max-width: 1024px;
+    height: 100px;
     padding: 0 15px;
     margin: 0 auto;
     background:rgb(226, 199, 199);
 }
+
 .logo
 {
     float: left;
 }
-.nav
+
+nav
 {
     float: right;
 }
-.nav ul
+
+nav ul
 {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: square;
 }
-.nav li
+
+nav li
 {
     display: inline-block;
 }
