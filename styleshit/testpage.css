@@ -1,3 +1,7 @@
+body 
+{
+    background-image: url(images/back.jpg);
+}
 header
 {
     background: rgb(247, 122, 122);
@@ -6,6 +10,10 @@ header
 footer
 {
     background: rgb(105, 3, 3);
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
 }
 
 .container 
@@ -21,6 +29,12 @@ footer
 .logo
 {
     float: left;
+    background-color: aquamarine;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+
 }
 
 nav
@@ -38,4 +52,5 @@ nav ul
 nav li
 {
     display: inline-block;
+    background-color: burlywood;
 }
