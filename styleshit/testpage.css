@@ -24,12 +24,6 @@ footer
     height: 100px;
     width: 100%;
 }
-
-#cont2 
-{
-    position: relative;
-
-}
 .container 
 {
     z-index: 3;
@@ -43,7 +37,10 @@ footer
     margin: 30px;
     background:rgb(226, 199, 199);
 }
-
+#cont2 
+{
+    position: relative;
+}
 .logo
 {
     float: left;
@@ -57,7 +54,9 @@ footer
 
 nav
 {
-    float: right;
+    position: relative;
+    left: 40%;
+    float: inline-start;
 }
 
 nav ul
@@ -71,4 +70,7 @@ nav li
 {
     display: inline-block;
     background-color: burlywood;
+    font-family:courier; 
+    font-style:italic;
+    font-weight: bold;
 }
