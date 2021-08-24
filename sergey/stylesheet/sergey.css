@@ -1,0 +1,27 @@
+body {
+    background: #f3f2f3;
+    color: #000000;
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 12px;
+}
+
+#outer {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+  }
+   
+  #header {
+    height: 100px;
+    background-color: red;
+  }
+   
+  #content {
+    background-color: yellow;
+    flex-grow : 1;
+  }
+
+  #footer {
+    height: 100px;
+    background-color: green;
+  }
