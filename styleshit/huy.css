@@ -1,0 +1,25 @@
+html
+{
+    height:100%;
+    width:100%;
+    margin: 0;
+    
+}
+
+header
+{
+    background-color: rgb(141, 47, 47);
+    height: 100px;
+}
+
+.container
+{
+    background: rgb(145, 153, 97);
+    height: calc( 100% - 200px );
+}
+
+footer
+{
+    background-color: rgb(51, 97, 51);
+    height: 100px;
+}

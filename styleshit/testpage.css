@@ -4,30 +4,24 @@ body
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0;
+    width: 100%;
 }
 
 header
 {
     background: rgb(75, 74, 74);
-    z-index: auto;
+    z-index: 1;
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: 3;
 }
 
-footer
+.container
 {
-    background: rgb(100, 91, 91);
-    position: absolute;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-}
-.container 
-{
+    outline-style: double;
     z-index: 3;
-    position: static;
+    position: relative;
     top: 100px;
     left: 200px;
     width: 100%;
@@ -37,6 +31,17 @@ footer
     margin: 30px;
     background:rgb(226, 199, 199);
 }
+
+footer
+{
+    background: rgb(100, 91, 91);
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+}
+
 #cont2 
 {
     position: relative;
